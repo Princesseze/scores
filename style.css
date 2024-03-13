@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+}
+    
+
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    
+
+    
+}
+main{
+    display: flex;
+    background-color: white;
+    border-radius: 2rem;
+
+}
+
+.picture {
+    width: 12rem;
+    height: 14rem;
+    background-color: rgb(43, 43, 248);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 2rem;
+    
+
+    
+
+}
+.circle{
+    width: 75px;
+    height: 75px;
+    border-radius:50% ;
+    background-color:rgba(6, 6, 97, 0.74);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1rem;
+    
+    
+    
+    
+    
+    
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    font-size:40px ;
+    font-weight: 800;
+
+}
+.bottom{
+    color: rgba(252, 237, 237, 0.767);
+    font-size: 15px;
+
+}
+.ppl{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+span{
+    font-size: 13px;
+    color: rgba(252, 237, 237, 0.767);
+}
+.score{
+    width: 12rem;
+    height: 16rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.s{
+    color: rgb(4, 4, 136);
+}
+.react{
+    background-color:rgb(253, 184, 184) ;
+    color: red;
+    width: 13rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 0.4rem;
+    
+    
+
+}
+.a{
+    color: rgba(14, 10, 51, 0.623);
+}
+.memo{
+    background-color:rgb(248, 209, 209) ;
+    color:palevioletred;
+    width: 13rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.4rem;
+    
+
+
+}
+.b{
+    color: rgba(14, 10, 51, 0.623);
+ 
+}
+.ve{
+    background-color: rgb(178, 235, 178);
+    color: rgb(14, 218, 14);
+    width: 13rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+.c{
+    color: rgba(14, 10, 51, 0.623);
+
+}
+.vis{
+    background-color: rgb(170, 170, 243);
+    color: blue;
+    width: 13rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+.d{
+    color: rgba(14, 10, 51, 0.623);
+
+}
+button{
+    background-color: rgb(12, 12, 59);
+    color: white;
+    width: 13rem;
+    height: 40px;
+    border-radius: 2rem;
+}
+@media(max-width:554px){
+    main{
+        flex-direction: column;
+        /* height: 300px; */
+        margin-top: -3rem;
+
+        
+    }
+    .picture{
+        width: 12rem;
+        height: 11rem;
+    }
+    .score{
+        width: 13rem;
+        height: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
